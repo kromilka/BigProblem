@@ -38,6 +38,6 @@ public class theEnd : MonoBehaviour
    IEnumerator waitFor()
     {
         yield return new WaitForSeconds(7.7f);
-        SceneManager.LoadScene("Winlose");
+        SceneManager.LoadScene(8);
     }
 }

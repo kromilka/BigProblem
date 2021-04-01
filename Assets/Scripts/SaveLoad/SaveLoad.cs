@@ -1,4 +1,4 @@
-﻿using System.Collections;
+﻿	using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
@@ -13,7 +13,17 @@ public class SaveLoad : MonoBehaviour
 	public GameObject lis;
 	public GameObject ke;
 
+
+	public GameObject shest2;
+	public GameObject klu2;
+	public GameObject otv2;
+	public GameObject chp2;
+
+
 	public GameObject qCloud;
+
+	public GameObject qCloud2;
+
 	private GameObject player;
 	public GameObject cam;
 	public GameObject cam1;
@@ -78,6 +88,8 @@ public class SaveLoad : MonoBehaviour
 				qCloud.transform.GetChild(2).gameObject.SetActive(false);
 				qCloud.transform.GetChild(1).gameObject.SetActive(false);
 				qCloud.transform.GetChild(4).gameObject.SetActive(false);
+
+				// добавить то же самое но с qCloud2
 			}
 			else if(quest.questNumber < 5)
 			{

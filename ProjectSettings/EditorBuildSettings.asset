@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/control_room.unity
     guid: 378264a5cdf99cd46a79f6795d5c51df
+  - enabled: 1
+    path: Assets/Scenes/WinLose.unity
+    guid: 118dc01de3d541d46b38bcb4933b9403
   m_configObjects: {}
