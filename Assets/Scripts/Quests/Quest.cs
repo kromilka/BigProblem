@@ -18,7 +18,12 @@ public class Quest : MonoBehaviour
             questNumber++;
             Destroy(other.gameObject);
             Reputation.Karma += 1;
+            Reputation.Positive += 1;
             CheckQuest();
+        } else
+        {
+            Reputation.Karma -= 1;
+            Reputation.Negative -= 1;
         }
 //        if(other.tag != "Player" && other.gameObject.GetComponent<Pickup>().id == items[negativeQuestNumber]) // 
 //        {
